@@ -11,7 +11,7 @@
 <body>
     <?php
         //instanciando la clase de admi
-        $aministrador = new Administrador();
+        $administrador = new Administrador();
         $departamentos = $administrador->departamentos();
         $datos = $administrador->getAdministradorById();
     ?>

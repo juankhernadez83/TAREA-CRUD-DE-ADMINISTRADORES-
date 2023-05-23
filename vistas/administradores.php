@@ -43,7 +43,7 @@
                         <td>
                             <form action="./actualizarAdministrador.php" method="POST">
                                 <input type="hidden" name="id_administrador" value="<?php echo $item["id"]; ?>">
-                                <input type="sudmit" class="btn btn-info" value="Editar">
+                                <input type="submit" class="btn btn-info" value="Editar">
                             </form>
                         </td>
                         <td>
