@@ -10,7 +10,7 @@
 </head>
 <body>
     <?php
-        //instanciando la clase de admi
+        //instanciando la clase de administradores
         $administrador = new Administrador();
         $departamentos = $administrador->departamentos();
         $datos = $administrador->getAdministradorById();
